@@ -13,7 +13,7 @@ header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 28px;
-  font-family: 'Playfair Display';
+  font-family: 'Playfair Display'; /* added font family and size */
 }
 
 /* typography */
