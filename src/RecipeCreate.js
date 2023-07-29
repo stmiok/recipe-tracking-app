@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-function RecipeCreate({createRecipe}) {
+function RecipeCreate({createRecipe}) { //added createRecipe prop
 
   // TODO: When the form is submitted, a new recipe should be created, and the form contents cleared.
   // TODO: Add the required input and textarea form elements.
