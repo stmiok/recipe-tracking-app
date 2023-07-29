@@ -11,7 +11,7 @@ function RecipeList({recipes, deleteRecipe}) {
       <table>
         <thead>
           <tr>
-            <th>Name</th>
+            <th>Name</th> {/* added table headers */}
             <th>Cuisine</th>
             <th>Photo</th>
             <th>Ingredients</th>
@@ -19,7 +19,7 @@ function RecipeList({recipes, deleteRecipe}) {
             <th>Actions</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody> {/* created row to display the created recipes */}
         {recipes.map((recipe, index) => (
           <tr key={index}>
           <td>{recipe.name}</td>
@@ -33,7 +33,7 @@ function RecipeList({recipes, deleteRecipe}) {
           <td className="content_td">
             <p>{recipe.preparation}</p>
           </td>
-          <td>
+          <td> {/* delete button created */}
             <button name="delete" onClick={() => deleteRecipe(index)}>
               Delete
             </button>
